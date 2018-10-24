@@ -1,0 +1,173 @@
+[ 2018-10-15T09:19:41+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0070s ]
+SQL: DELETE FROM `oa_doc` WHERE `id` = 11 [ RunTime:0.0010s ]
+
+[ 2018-10-15T09:25:25+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0070s ]
+
+[ 2018-10-15T09:25:42+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0070s ]
+
+[ 2018-10-15T09:27:13+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0070s ]
+
+[ 2018-10-15T09:27:24+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0070s ]
+
+[ 2018-10-15T09:27:40+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1,2,10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0070s ]
+
+[ 2018-10-15T09:28:12+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1,2,10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0060s ]
+
+[ 2018-10-15T09:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_doc` WHERE `id` = 10 [ RunTime:0.0000s ]
+
+[ 2018-10-15T09:31:30+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1,2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_doc` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: id G:\UPUPW_NP5.4\htdocs\OA\Application\Admin\Controller\DocController.class.php 第 63 行.
+
+[ 2018-10-15T13:32:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2018-10-15T13:32:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2018-10-15T13:32:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2018-10-15T13:32:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-mgt.html
+ERR: 非法操作:info-mgt
+
+[ 2018-10-15T13:32:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/add.html
+ERR: 非法操作:add
+
+[ 2018-10-15T13:33:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/add.html
+ERR: 非法操作:add
+
+[ 2018-10-15T13:33:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/add.html
+ERR: 非法操作:add
+
+[ 2018-10-15T13:33:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/add.html
+ERR: 非法操作:add
+
+[ 2018-10-15T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/add.html
+ERR: 非法操作:add
+
+[ 2018-10-15T13:41:47+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 1146:Table 'db_oa.oa_knowledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_knowledge`
+
+[ 2018-10-15T14:22:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2018-10-15T14:23:25+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/add.html
+ERR: 1146:Table 'db_oa.oa_knowledge' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `oa_knowledge`
+
+[ 2018-10-15T14:34:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2018-10-15T14:50:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2018-10-15T14:51:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/info-reg.html
+ERR: 非法操作:info-reg
+
+[ 2018-10-15T15:20:48+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/download/id/3.html
+ERR: 非法操作:download
+
+[ 2018-10-15T15:36:52+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:36:54+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:36:59+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:37:19+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:38:03+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:38:18+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:38:33+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:38:49+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:38:52+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:38:55+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/test/iframe.html
+ERR: 非法操作:test
+
+[ 2018-10-15T15:40:10+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:40:13+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:40:26+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:40:36+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:40:39+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:40:52+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:40:54+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:41:36+08:00 ] 127.0.0.1 /index.php/Admin/knowledge/mobile/
+ERR: 非法操作:mobile
+
+[ 2018-10-15T15:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/viewConent/id/2
+ERR: 非法操作:viewConent
+
+[ 2018-10-15T15:43:37+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/viewConent/id/3
+ERR: 非法操作:viewConent
+
+[ 2018-10-15T15:51:19+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/edit/id/3.html
+ERR: 非法操作:edit
+
+[ 2018-10-15T15:51:21+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/edit/id/2.html
+ERR: 非法操作:edit
+

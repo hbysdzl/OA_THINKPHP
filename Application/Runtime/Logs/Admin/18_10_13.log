@@ -1,0 +1,35 @@
+[ 2018-10-13T13:28:00+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/on,on,on,on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined variable: ids G:\UPUPW_NP5.4\htdocs\OA\Application\Admin\Controller\DocController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-10-13T13:29:11+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/on,on,on,on
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: ids G:\UPUPW_NP5.4\htdocs\OA\Application\Admin\Controller\DocController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-13T13:30:41+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1,2,10,11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: ids G:\UPUPW_NP5.4\htdocs\OA\Application\Admin\Controller\DocController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-13T13:31:47+08:00 ] 127.0.0.1 /index.php/Admin/Doc/del/id/1,2,10,11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+

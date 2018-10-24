@@ -1,0 +1,354 @@
+[ 2018-10-17T10:37:06+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/3,2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-10-17T10:38:03+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/3,2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-10-17T11:01:02+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_knowledge` [ RunTime:0.0060s ]
+
+[ 2018-10-17T11:09:03+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/3,2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `oa_knowledge` [ RunTime:0.0070s ]
+SQL: SELECT `picture`,`thumb` FROM `oa_knowledge`  [ RunTime:0.0000s ]
+SQL: DELETE FROM `oa_knowledge` WHERE `id` IN ('3','2') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result G:\UPUPW_NP5.4\htdocs\OA\Application\Admin\Controller\KnowledgeController.class.php 第 64 行.
+
+[ 2018-10-17T11:09:13+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/3,2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_knowledge` [ RunTime:0.0070s ]
+SQL: SELECT `picture`,`thumb` FROM `oa_knowledge`  [ RunTime:0.0000s ]
+SQL: DELETE FROM `oa_knowledge` WHERE `id` IN ('3','2') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T11:11:06+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `oa_knowledge` [ RunTime:0.0070s ]
+SQL: SELECT `picture`,`thumb` FROM `oa_knowledge` WHERE `id` = 4  [ RunTime:0.0010s ]
+SQL: DELETE FROM `oa_knowledge` WHERE `id` = 4 [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: result G:\UPUPW_NP5.4\htdocs\OA\Application\Admin\Controller\KnowledgeController.class.php 第 64 行.
+
+[ 2018-10-17T11:14:25+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_knowledge` [ RunTime:0.0090s ]
+SQL: SELECT `picture`,`thumb` FROM `oa_knowledge` WHERE `id` = 5  [ RunTime:0.0000s ]
+SQL: DELETE FROM `oa_knowledge` WHERE `id` = 5 [ RunTime:0.0000s ]
+
+[ 2018-10-17T11:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Knowledge/del/id/7,6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_knowledge` [ RunTime:0.0090s ]
+SQL: SELECT `picture`,`thumb` FROM `oa_knowledge`  [ RunTime:0.0000s ]
+SQL: DELETE FROM `oa_knowledge` WHERE `id` IN ('7','6') [ RunTime:0.0000s ]
+
+[ 2018-10-17T11:57:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 模板不存在:./Application/Admin/View/Email/send.html
+
+[ 2018-10-17T13:43:07+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id != ) 
+
+[ 2018-10-17T13:44:56+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id != ) 
+
+[ 2018-10-17T13:45:18+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id != ) 
+
+[ 2018-10-17T13:45:31+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id!= ) 
+
+[ 2018-10-17T13:45:33+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id!= ) 
+
+[ 2018-10-17T13:45:51+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id!= ) 
+
+[ 2018-10-17T13:46:25+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE ( id !=  ) 
+
+[ 2018-10-17T13:47:14+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE (  id ) AND (  (  neq ) AND (  ) ) 
+
+[ 2018-10-17T13:47:15+08:00 ] 127.0.0.1 /index.php/Admin/Email/send.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`truename` FROM `oa_user` WHERE (  id ) AND (  (  neq ) AND (  ) ) 
+
+[ 2018-10-17T16:05:03+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't1.to_id=t2.id  WHERE ( t1.from_id=7 )' at line 1
+ [ SQL语句 ] : SELECT t1.*,t2.truename FROM oa_email t1 left join oa_user as t2 t1.to_id=t2.id  WHERE ( t1.from_id=7 ) 
+
+[ 2018-10-17T16:05:05+08:00 ] 127.0.0.1 /index.php/Admin/Email/sendBox.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 't1.to_id=t2.id  WHERE ( t1.from_id=7 )' at line 1
+ [ SQL语句 ] : SELECT t1.*,t2.truename FROM oa_email t1 left join oa_user as t2 t1.to_id=t2.id  WHERE ( t1.from_id=7 ) 
+
+[ 2018-10-17T16:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T16:38:37+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T16:50:51+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from_id=7 )' at line 1
+ [ SQL语句 ] : DELETE FROM `oa_email` WHERE ( id=1and from_id=7 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from_id=7 )' at line 1
+ [ SQL语句 ] : DELETE FROM `oa_email` WHERE ( id=1and from_id=7 )
+
+[ 2018-10-17T16:50:59+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from_id=7 )' at line 1
+ [ SQL语句 ] : DELETE FROM `oa_email` WHERE ( id=1and from_id=7 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from_id=7 )' at line 1
+ [ SQL语句 ] : DELETE FROM `oa_email` WHERE ( id=1and from_id=7 )
+
+[ 2018-10-17T16:53:39+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '1' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T16:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0050s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '2' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T16:53:44+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '2' AND `from_id` = '7' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T16:53:46+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '2' AND `from_id` = '7' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-10-17T16:53:48+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '2' AND `from_id` = '7' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T16:53:51+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '1' AND `from_id` = '7' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T16:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '1' AND `from_id` = '7' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-10-17T16:57:24+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '3' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T16:59:14+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '4' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0050s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '5' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:04:17+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '6' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:05:18+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '7' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:06:12+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '8' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:07:37+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '9' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:09:41+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '10' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:10:45+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '11' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '12' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '13' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '14' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:18:19+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '15' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:19:01+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0070s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '16' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '17' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:20:57+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/18
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0070s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '18' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0080s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '19' AND `from_id` = '7' [ RunTime:0.0010s ]
+
+[ 2018-10-17T17:26:53+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0080s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '20' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:29:19+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/21
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0060s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '21' AND `from_id` = '7' [ RunTime:0.0000s ]
+
+[ 2018-10-17T17:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Email/del/id/22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `oa_email` [ RunTime:0.0070s ]
+SQL: DELETE FROM `oa_email` WHERE `id` = '22' AND `from_id` = '7' [ RunTime:0.0000s ]
+

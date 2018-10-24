@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查查邮件</title>
+	<style>
+		a{
+			display: block;
+			width: 50px;
+			height: 30px;
+			border: 1px solid #ccc;
+			text-align: center;
+			line-height: 30px;
+			text-decoration: none;
+			color: #000;
+		}
+		.file,.content {
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div><a href="{:U('send?from_id='.$result['from_id'])}">回复</a></div>
+	<div>
+		<h5>发件人：{$result.truename}</h5>
+		<h5>标题: {$result.title}</h5>
+		<h5>时间：{$result.addtime|date="Y-m-d H:i",###}</h5>
+		<h5>收件人：{$Think.session.truename}</h5>
+		<div class="file">
+			<h5>附件：{$result.filename}</h5>
+			<img src="{$result.file}" alt="">
+		</div>
+		<div class="content">
+			<h5>内容</h5>
+			<div>
+				{$result.content}
+			</div>
+		</div>
+	</div>
+</body>
+</html>

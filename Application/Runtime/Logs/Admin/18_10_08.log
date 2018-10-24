@@ -1,0 +1,22 @@
+[ 2018-10-08T13:35:38+08:00 ] 127.0.0.1 /admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2018-10-08T13:35:48+08:00 ] 127.0.0.1 /admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2018-10-08T13:57:49+08:00 ] 127.0.0.1 /admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2018-10-08T14:21:24+08:00 ] 127.0.0.1 /admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2018-10-08T14:22:13+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: 模板不存在:./Application/Admin/View/Dept/showList.html
+
+[ 2018-10-08T14:53:44+08:00 ] 127.0.0.1 /admin/Public/index.html
+ERR: 非法操作:index
+
+[ 2018-10-08T17:17:56+08:00 ] 127.0.0.1 /index.php/Admin/Public/login.html
+ERR: 1054:Unknown column '得道多助失道寡助' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `oa_user` WHERE ( username=得道多助失道寡助 ) LIMIT 1  
+
