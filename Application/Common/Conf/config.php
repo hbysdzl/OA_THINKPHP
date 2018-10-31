@@ -38,6 +38,6 @@ return array(
     'RBAC_ROLE_AUTHS' => array(
             '1'  =>  '*/*',
             '2'  =>  array('email/*','doc/*','user/*'),
-            '3'  =>  array('email/*','knowledge/*')
+            '3'  =>  array('email/*','knowledge/*','doc/*')
         ),
 );

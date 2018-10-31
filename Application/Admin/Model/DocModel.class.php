@@ -25,12 +25,19 @@ class DocModel extends Model {
 		$data['filename'] = $rel['name'];
 		$data['hasfile'] = 1;
 		$data['addtime'] = time();
-		return  $this->add($data);
+
+
+		//使用mongodb
+		$mongo = new \MongoClient("mongodb://root:root@127.0.0.1:27017");
+		$db = $mongo->oa_db;
+		$result = $db->oa_doc->insert($data);
+		return $result['ok'];
 	}
 
 	//数据更新方法
 	public function saveUpdate($post,$file) {
-		
+		$mongo = new \MongoClient("mongodb://root:root@127.0.0.1:27017");
+		$db = $mongo->oa_db;
 		if($file['error']==0){
 			$cfg=array(
 					'rootPath'  =>   WORK_PATH.UPLOAD_PATH,  //文件上传路径
@@ -41,7 +48,7 @@ class DocModel extends Model {
 			
 			if($info){
 				//先将原有的文件从硬盘删除
-				$old_file = $this->field('filepath')->find($post['id']);
+				$old_file = $db->oa_doc->findOne(array('_id'=>new \MongoId($post['_id'])),array('filepath'=>true));
 				$oldPath = WORK_PATH.$old_file['filepath'];
 				unlink($oldPath);
 
@@ -50,9 +57,15 @@ class DocModel extends Model {
 				$post['filename'] = $info['name'];  //原始文件名
 				$post['hasfile'] = 1;
 			}
-
-			return $this->save($post);
-
+			
 		}
+		$id = $post['_id'];
+		unset($post['_id']);
+	  	return $db->oa_doc->update(array('_id'=>new \MongoId("$id")),array('$set'=>$post));
+	 
 	}
+
+
+
+
 }

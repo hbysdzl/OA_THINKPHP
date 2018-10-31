@@ -43,20 +43,23 @@
             </tr>
         </thead>
         <tbody>
-        	<?php if(is_array($docList)): $i = 0; $__LIST__ = $docList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
-        		<td class="id"><input type="checkbox" class="check" value="<?php echo ($vol["id"]); ?>" /></td>
-            	<td class="id"><?php echo ($i); ?></td>
-                <td class="name"><?php echo ($vol["title"]); ?></td>
-				<td class="file"><?php echo ($vol["filename"]); if($vol["hasfile"] == 1): ?>&nbsp&nbsp&nbsp
-					<a href="<?php echo U('download?id='.$vol['id']);?>">下载附件</a><?php endif; ?>
+        	<?php $i=0;?>
+        	<?php foreach($docList as $k=>$v): ?>
+        	<tr>
+        		<td class="id"><input type="checkbox" class="check" value="<?php echo ($v["_id"]); ?>" /></td>
+            	<td class="id"><?php echo ++$i;?></td>
+                <td class="name"><?php echo ($v["title"]); ?></td>
+				<td class="file"><?php echo ($v["filename"]); if($v["hasfile"] == 1): ?>&nbsp&nbsp&nbsp
+					<a href="<?php echo U('download?id='.$v['_id']);?>">下载附件</a><?php endif; ?>
 				</td>
-                <td class="content"><?php echo ($vol["author"]); ?></td>
-                <td class="addtime"><?php echo (date("Y-m-d H:i" ,$vol["addtime"])); ?></td>
+                <td class="content"><?php echo ($v["author"]); ?></td>
+                <td class="addtime"><?php echo (date("Y-m-d H:i" ,$v["addtime"])); ?></td>
                 <td class="operate">
-                	<a href ='javascript:;' class="show" id="<?php echo ($vol["id"]); ?>" data-title="<?php echo ($vol["title"]); ?>">查看</a>&nbsp|&nbsp
-                	<a href ='<?php echo U('edit?id='.$vol[id]);?>'>编辑</a>  
+                	<a href ='javascript:;' class="show" id="<?php echo ($v["_id"]); ?>" data-title="<?php echo ($v["title"]); ?>">查看</a>&nbsp|&nbsp
+                	<a href ="<?php echo U('edit?id='.$v['_id']);?>">编辑</a>  
                 </td>
-            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            </tr>
+        <?php endforeach;?>
         </tbody>
     </table>
 </div>

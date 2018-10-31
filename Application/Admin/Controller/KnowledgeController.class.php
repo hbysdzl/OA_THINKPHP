@@ -10,16 +10,23 @@ class KnowledgeController extends CommonController {
 	public function showList() {
 		
 		//初始化redis缓存
-		S(array('type'=>'redis','host'=>'127.0.0.1','post'=>'6379','prefix'=>'oa_'));
-		
+		//S(array('type'=>'redis','host'=>'127.0.0.1','post'=>'6379','prefix'=>'oa_'));
+		$redis = new \Redis();
+		$redis->connect('127.0.0.1',6379);
+		$redis->auth('duanzonglai');
+		$res = $redis->get('knowList');
 		//获取redis缓存数据
-		 if(S('knowList')){
-		 	$dataList = S('knowList');
+		 if($res){
+		 	$data = json_decode($res,true);
+		 	$dataList = $data;
 		 }else{
 		 	$knowlegeModel=D('Knowledge');
 			$dataList=$knowlegeModel->order('addtime desc')->select();
 		 	//添加redis数据缓存
-			S('knowList',$dataList,1800);
+			// S('knowList',$dataList,1800);
+			$data = json_encode($dataList);
+			$redis->set('knowList',$data);
+			$redis->setTimeout('knowList',3600);
 		 }
 
 		$this->assign('dataList' , $dataList);

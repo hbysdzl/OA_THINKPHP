@@ -43,22 +43,23 @@
             </tr>
         </thead>
         <tbody>
-        	<volist name="docList" id="vol">
+        	<?php $i=0;?>
+        	<?php foreach($docList as $k=>$v): ?>
         	<tr>
-        		<td class="id"><input type="checkbox" class="check" value="{$vol.id}" /></td>
-            	<td class="id">{$i}</td>
-                <td class="name">{$vol.title}</td>
-				<td class="file">{$vol.filename}<if condition="$vol.hasfile == 1">&nbsp&nbsp&nbsp
-					<a href="{:U('download?id='.$vol['id'])}">下载附件</a> </if>
+        		<td class="id"><input type="checkbox" class="check" value="{$v._id}" /></td>
+            	<td class="id"><?php echo ++$i;?></td>
+                <td class="name">{$v.title}</td>
+				<td class="file">{$v.filename}<if condition="$v.hasfile == 1">&nbsp&nbsp&nbsp
+					<a href="{:U('download?id='.$v['_id'])}">下载附件</a> </if>
 				</td>
-                <td class="content">{$vol.author}</td>
-                <td class="addtime">{$vol.addtime|date="Y-m-d H:i" ,###}</td>
+                <td class="content">{$v.author}</td>
+                <td class="addtime">{$v.addtime|date="Y-m-d H:i" ,###}</td>
                 <td class="operate">
-                	<a href ='javascript:;' class="show" id="{$vol.id}" data-title="{$vol.title}">查看</a>&nbsp|&nbsp
-                	<a href ='{:U('edit?id='.$vol[id])}'>编辑</a>  
+                	<a href ='javascript:;' class="show" id="{$v._id}" data-title="{$v.title}">查看</a>&nbsp|&nbsp
+                	<a href ="{:U('edit?id='.$v['_id'])}">编辑</a>  
                 </td>
             </tr>
-            </volist>
+        <?php endforeach;?>
         </tbody>
     </table>
 </div>

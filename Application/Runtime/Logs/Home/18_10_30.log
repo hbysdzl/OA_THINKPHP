@@ -1,0 +1,14 @@
+[ 2018-10-30T08:42:24+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-30T08:42:25+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-30T09:02:24+08:00 ] 127.0.0.1 /index.php/home
+ERR: localhost:27017: not authorized on php2018 to execute command { insert: "goods", documents: [ { _id: ObjectId('5bd7ada0dc9183dc0a000029'), name: "duanzonglai" } ], writeConcern: { w: 1 } }
+
+[ 2018-10-30T09:21:48+08:00 ] 127.0.0.1 /index.php/home
+ERR: localhost:27017: not authorized on oa_db to execute command { insert: "oa_doc", documents: [ { _id: ObjectId('5bd7b22cdc9183c40a000029'), name: "duan" } ], writeConcern: { w: 1 } }
+

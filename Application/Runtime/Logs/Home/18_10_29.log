@@ -1,0 +1,60 @@
+[ 2018-10-29T16:34:15+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:34:17+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:38:04+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:38:06+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:38:09+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: Remote server has closed the connection
+
+[ 2018-10-29T16:38:46+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:38:48+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:38:59+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:39:02+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:41:16+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: Remote server has closed the connection
+
+[ 2018-10-29T16:41:44+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: Remote server has closed the connection
+
+[ 2018-10-29T16:44:07+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:44:15+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:44:31+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T16:49:53+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: 由于目标计算机积极拒绝，无法连接。
+
+
+[ 2018-10-29T17:25:18+08:00 ] 127.0.0.1 /index.php/home
+ERR: Failed to connect to: localhost:27017: Remote server has closed the connection
+

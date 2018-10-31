@@ -25,7 +25,7 @@
 <form action="" method="post" enctype="multipart/form-data">
 <div class="main">
 	<p class="short-input ue-clear">
-	<input type="hidden" name="id" value="<?php echo ($editData["id"]); ?>" />
+	<input type="hidden" name="_id" value="<?php echo ($editData["_id"]); ?>" />
     	<label>标题：</label>
         <input name="title" value="<?php echo ($editData["title"]); ?>" type="text" placeholder="标题..." />
     </p>
